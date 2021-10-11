@@ -1,1 +1,7 @@
+# node_modules of installed npm packages
 node_modules/
+
+# environment variables
+config/config.env/
+
+
