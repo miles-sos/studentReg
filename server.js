@@ -3,7 +3,7 @@ const dotenv = require('dotenv');
 const app = express();
 
 /* Laod Config */
-dotenv.config({ path: './config/config.env' });
+dotenv.config({ path: 'config.env' });
 
 /* Require DBConnection */
 const { connectDB } = require('./config/db');
