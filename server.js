@@ -34,7 +34,8 @@ app.use('/api/students', require('./routes/index'));
 
 /* Routes */
 app.get('/', (req, res) => {
-  res.render('index');
+  // res.render('index');
+  res.redirect('/home');
 });
 
 ///////////////////////////////////////////////////////////////
