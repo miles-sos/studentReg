@@ -37,6 +37,24 @@ app.get('/', (req, res) => {
   res.render('index');
 });
 
+///////////////////////////////////////////////////////////////
+app.get('/home', (req, res) => {
+  res.render('home');
+});
+
+app.get('/registration', (req, res) => {
+  res.render('registration');
+});
+
+app.get('/login', (req, res) => {
+  res.render('login');
+});
+
+app.get('/secretPage', (req, res) => {
+  res.render('secretPage');
+});
+///////////////////////////////////////////////////////////////
+
 app.post('/api/students', (req, res) => {
   res.redirect('');
 });
